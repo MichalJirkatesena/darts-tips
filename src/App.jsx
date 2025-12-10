@@ -2,6 +2,11 @@ import { useState, useEffect } from "react";
 import { database } from "./firebase";
 import { ref, onValue, set } from "firebase/database";
 
+import AdaAvatar from "./avatars/Ada.png";
+import JelinoAvatar from "./avatars/Jelino.png";
+import JedlaAvatar from "./avatars/Jedla.png";
+import MisaAvatar from "./avatars/Misa.png";
+
 const MATCHES = [
   // Thursday December 11
   { id: 1, p1: "Kim Huybrechts", p2: "Arno Merk" },
@@ -100,12 +105,16 @@ const MATCHES = [
   { id: 64, p1: "Keane Barry", p2: "Tim Pusey" },
 ];
 
-const USERS = ["Áda", "Jelíno", "Jedla", "Míša"];
-
+const USERS = [
+  { name: "Áda", avatar: AdaAvatar },
+  { name: "Jelíno", avatar: JelinoAvatar },
+  { name: "Jedla", avatar: JedlaAvatar },
+  { name: "Míša", avatar: MisaAvatar },
+];
 
 export default function App() {
   const [user, setUser] = useState("");
-  const [activeTab, setActiveTab] = useState("tipy"); // tipy | vysledky | zebricek
+  const [activeTab, setActiveTab] = useState("tipy");
   const [tips, setTips] = useState({});
   const [results, setResults] = useState({});
 
@@ -146,13 +155,13 @@ export default function App() {
       let wins = 0;
       let losses = 0;
       MATCHES.forEach(m => {
-        const tip = tips[u]?.[m.id];
+        const tip = tips[u.name]?.[m.id];
         const result = results[m.id];
         if (!tip || !result) return;
         if (tip === result) wins++;
         else losses++;
       });
-      return { user: u, wins, losses };
+      return { user: u.name, wins, losses };
     }).sort((a,b) => b.wins - a.wins || a.losses - b.losses);
   };
 
@@ -173,20 +182,25 @@ export default function App() {
             Tipy
           </button>
 
-          {/* Seznam tipujících */}
+          {/* Seznam tipujících s avatar */}
           {activeTab === "tipy" && (
             <div className="flex flex-col gap-3 mt-2">
               {USERS.map(u => (
                 <button
-                  key={u}
-                  className={`py-2 px-4 rounded-full font-semibold border transition-colors ${
-                    user === u
+                  key={u.name}
+                  className={`py-2 px-4 rounded-full font-semibold border transition-colors flex items-center gap-2 ${
+                    user === u.name
                       ? "bg-blue-500 text-white border-blue-600"
                       : "bg-white text-blue-700 border-blue-300 hover:bg-blue-200"
                   }`}
-                  onClick={() => setUser(u)}
+                  onClick={() => setUser(u.name)}
                 >
-                  {u}
+                  <img
+                    src={u.avatar}
+                    alt={u.name}
+                    className="w-8 h-8 rounded-full border border-gray-300"
+                  />
+                  <span>{u.name}</span>
                 </button>
               ))}
             </div>
