@@ -103,6 +103,47 @@ const MATCHES = [
   { id: 62, p1: "Daryl Gurney", p2: "Beau Greaves" },
   { id: 63, p1: "Nathan Aspinall", p2: "Lourence Ilagan" },
   { id: 64, p1: "Keane Barry", p2: "Tim Pusey" },
+
+  // 2nd round
+  { id: 65, p1: "Ryan Searle", p2: "Brendan Dolan" },
+  { id: 66, p1: "Andreas Harrysson", p2: "Motomu Sakai" },
+  { id: 67, p1: "Dirk van Duijvenbode", p2: "James Hurrell" },
+  { id: 68, p1: "Dave Chisnall", p2: "Ricardo Pietreczko" },
+
+  { id: 69, p1: "Michael Smith", p2: "Niels Zonneveld" },
+  { id: 70, p1: "Chris Dobey", p2: "Andrew Gilding" },
+  { id: 71, p1: "Stephen Bunting", p2: "Nitin Kumar" },
+  { id: 72, p1: "Jonny Clayton", p2: "Dom Taylor" },
+
+  { id: 73, p1: "Ryan Joyce", p2: "Krzysztof Ratajski" },
+  { id: 74, p1: "Joe Cullen", p2: "Mensur Suljovic" },
+  { id: 75, p1: "Luke Woodhouse", p2: "Max Hopp" },
+  { id: 76, p1: "Rob Cross", p2: "Ian White" },
+
+  { id: 77, p1: "Martin Schindler", p2: "Keane Barry" },
+  { id: 78, p1: "Gerwyn Price", p2: "Wesley Plaisier" },
+  { id: 79, p1: "Luke Littler", p2: "David Davies" },
+  { id: 80, p1: "Damon Heta", p2: "Stefan Bellmont" },
+
+  { id: 81, p1: "Darren Beveridge", p2: "Madars Razma" },
+  { id: 82, p1: "Wessel Nijman", p2: "Gabriel Clemens" },
+  { id: 83, p1: "David Munyua", p2: "Kevin Doets" },
+  { id: 84, p1: "James Wade", p2: "Ricky Evans" },
+
+  { id: 85, p1: "Gian van Veen", p2: "Alan Soutar" },
+  { id: 86, p1: "Nathan Aspinall", p2: "Leonard Gates" },
+  { id: 87, p1: "Luke Humphries", p2: "Paul Lim" },
+  { id: 88, p1: "Charlie Manby", p2: "Adam Sevada" },
+
+  { id: 89, p1: "Jonny Tata", p2: "Ryan Meikle" },
+  { id: 90, p1: "Daryl Gurney", p2: "Callan Rydz" },
+  { id: 91, p1: "Jermaine Wattimena", p2: "Scott Williams" },
+  { id: 92, p1: "Peter Wright", p2: "Arno Merk" },
+
+  { id: 93, p1: "Danny Noppert", p2: "Justin Hood" },
+  { id: 94, p1: "Gary Anderson", p2: "Connor Scutt" },
+  { id: 95, p1: "Michael van Gerwen", p2: "William O’Connor" },
+  { id: 96, p1: "Josh Rock", p2: "Joe Comito" },
 ];
 
 const USERS = [
