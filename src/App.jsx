@@ -144,6 +144,26 @@ const MATCHES = [
   { id: 94, p1: "Gary Anderson", p2: "Connor Scutt" },
   { id: 95, p1: "Michael van Gerwen", p2: "William O’Connor" },
   { id: 96, p1: "Josh Rock", p2: "Joe Comito" },
+
+  // 3rd round
+  { id: 97,  p1: "Wesley Plaisier",    p2: "Krzysztof Ratajski" },
+  { id: 98,  p1: "Andrew Gilding",     p2: "Luke Woodhouse" },
+  { id: 99,  p1: "Jonny Clayton",      p2: "Niels Zonneveld" },
+  { id: 100, p1: "Andreas Harrysson",  p2: "Ricardo Pietreczko" },
+  { id: 101, p1: "Stephen Bunting",    p2: "James Hurrell" },
+  { id: 102, p1: "Luke Littler",       p2: "Mensur Suljovic" },
+
+  { id: 103, p1: "Martin Schindler",   p2: "Ryan Searle" },
+  { id: 104, p1: "Damon Heta",         p2: "Rob Cross" },
+  { id: 105, p1: "Gary Anderson",      p2: "Jermaine Wattimena" },
+  { id: 106, p1: "Gian van Veen",      p2: "Madars Razma" },
+  { id: 107, p1: "Luke Humphries",     p2: "Gabriel Clemens" },
+  { id: 108, p1: "Michael van Gerwen", p2: "Arno Merk" },
+
+  { id: 109, p1: "Ryan Meikle",        p2: "Justin Hood" },
+  { id: 110, p1: "Ricky Evans",        p2: "Charlie Manby" },
+  { id: 111, p1: "Nathan Aspinall",    p2: "Kevin Doets" },
+  { id: 112, p1: "Josh Rock",          p2: "Callan Rydz" },
 ];
 
 const USERS = [
