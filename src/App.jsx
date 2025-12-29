@@ -164,6 +164,15 @@ const MATCHES = [
   { id: 110, p1: "Ricky Evans",        p2: "Charlie Manby" },
   { id: 111, p1: "Nathan Aspinall",    p2: "Kevin Doets" },
   { id: 112, p1: "Josh Rock",          p2: "Callan Rydz" },
+  // 4th round
+  { id: 113, p1: "James Hurrell",         p2: "Ryan Searle" },
+  { id: 114, p1: "Luke Littler",          p2: "Rob Cross" },
+  { id: 115, p1: "Luke Woodhouse",        p2: "Krzysztof Ratajski" },
+  { id: 116, p1: "Jonny Clayton",         p2: "Andreas Harrysson" },
+  { id: 117, p1: "Luke Humphries",        p2: "Kevin Doets" },
+  { id: 118, p1: "Charlie Manby",         p2: "Gian van Veen" },
+  { id: 119, p1: "Michael van Gerwen",    p2: "Gary Anderson" },
+  { id: 120, p1: "Justin Hood",           p2: "Josh Rock" }
 ];
 
 const USERS = [
