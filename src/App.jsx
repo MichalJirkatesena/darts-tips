@@ -172,7 +172,12 @@ const MATCHES = [
   { id: 117, p1: "Luke Humphries",        p2: "Kevin Doets" },
   { id: 118, p1: "Charlie Manby",         p2: "Gian van Veen" },
   { id: 119, p1: "Michael van Gerwen",    p2: "Gary Anderson" },
-  { id: 120, p1: "Justin Hood",           p2: "Josh Rock" }
+  { id: 120, p1: "Justin Hood",           p2: "Josh Rock" },
+  // Quaterfinals
+  { id: 121, p1: "Ryan Searle",       p2: "Jonny Clayton" },
+  { id: 122, p1: "Gary Anderson",     p2: "Justin Hood" },
+  { id: 123, p1: "Luke Littler",      p2: "Krzysztof Ratajski" },
+  { id: 124, p1: "Luke Humphries",    p2: "Gian van Veen" }
 ];
 
 const USERS = [
