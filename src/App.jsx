@@ -177,7 +177,7 @@ const MATCHES = [
   { id: 121, p1: "Ryan Searle",       p2: "Jonny Clayton" },
   { id: 122, p1: "Gary Anderson",     p2: "Justin Hood" },
   { id: 123, p1: "Luke Littler",      p2: "Krzysztof Ratajski" },
-  { id: 124, p1: "Luke Humphries",    p2: "Gian van Veen" }
+  { id: 124, p1: "Luke Humphries",    p2: "Gian van Veen" },
   // Semifinals
   { id: 125, p1: "Ryan Searle",       p2: "Luke Littler" },
   { id: 126, p1: "Gary Anderson",     p2: "Gian van Veen" },
